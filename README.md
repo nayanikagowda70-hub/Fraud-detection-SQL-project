@@ -84,13 +84,14 @@ LIMIT 10;
 ![Schema](schema_table.png)
 
 ### ✅ Overall Fraud Rate
-![Overall Fraud Rate](screenshots_overall_fraud_rate.png)
+![Overall Fraud Rate](overall_fraud.png)
 
 ### ✅ Fraud Rate by Transaction Type
-![Fraud Rate by Type](Screenshot_Fraud_rate_by_transaction_type.png)
+![Fraud Rate by Type](fraud_by_type.png)
 
 ### ✅ Top 10 High-Value Fraud Cases
-![High Value Fraud](Screenshot_Top_10_high-value_fraud_cases.png)
+![High Value Fraud](top10_fraud.png)
+
 
 
 
