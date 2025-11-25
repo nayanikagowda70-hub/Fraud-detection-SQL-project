@@ -92,6 +92,50 @@ LIMIT 10;
 ### ✅ Top 10 High-Value Fraud Cases
 ![High Value Fraud](top10_fraud.png)
 
+---
+
+## 🎯 Key Insights & Findings
+
+### ✅ 1. Very low overall fraud rate
+- Only **0.40%** of all transactions were confirmed as fraud
+- Shows that fraud is **rare but high-impact**
+
+---
+
+### ✅ 2. Fraud happens mostly in specific transaction types
+- **TRANSFER** and **CASH_OUT** have the highest fraud rates
+- These involve moving money between accounts → higher risk
+- **PAYMENT** and **CASH_IN** had almost **no fraud**
+
+📌 *Insight:* Fraudsters prefer transactions where money leaves the system.
+
+---
+
+### ✅ 3. High-value frauds follow a pattern
+- Top fraudulent transactions involved **very large amounts**
+- Most had **newbalanceDest = 0**, meaning:
+  - money was withdrawn instantly
+  - receiving account did not keep balance
+
+📌 *Insight:* This suggests **money-mule or instant cash-out behaviour**
+
+---
+
+### ✅ 4. Flagged fraud is not always real fraud
+- Many transactions marked as `isFlaggedFraud = 1` were **not truly fraudulent**
+- Shows the system produces **false positives**
+
+📌 *Insight:* Fraud detection rules need improvement
+
+---
+
+### ✅ Final Conclusion
+- Fraud is rare but strategic in **large-value TRANSFER/CASH_OUT**
+- Monitoring should focus on:
+  ✔ sudden high transfers  
+  ✔ zero final balance accounts  
+  ✔ repeated withdrawals to new accounts
+
 
 
 
