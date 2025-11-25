@@ -135,11 +135,6 @@ LIMIT 10;
   ✔ sudden high transfers  
   ✔ zero final balance accounts  
   ✔ repeated withdrawals to new accounts
-### ✅ Power BI – Overall Fraud Rate
-![Overall Fraud Rate](overall_fraud_kpi.png)
-
-### ✅ Power BI – Fraud by Transaction Type
-![Fraud by Type](fraud_by_type_chart.png)
 
 
 
