@@ -78,18 +78,7 @@ WHERE isFraud = 1
 ORDER BY amount DESC
 LIMIT 10;
 ```
-## 📌 Project Screenshots
 
-### ✅ Schema & Table
-![Schema](schema_table.png)
 
-### ✅ Overall Fraud Rate
-![Overall Fraud Rate](screenshots overall_fraud_rate.png)
-
-### ✅ Fraud Rate by Transaction Type
-![Fraud Rate by Type](Screenshot Fraud rate by transaction type.png)
-
-### ✅ Top 10 High-Value Fraud Cases
-![High Value Fraud](Screenshot Top 10 high-value fraud cases.png)
 
 
